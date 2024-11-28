@@ -1,5 +1,5 @@
 import os
-from bus import Host
+from skeleton_bus import Host
 from ee315_24_lib import Bus, Packet
 
 def test_bus_functionality():
