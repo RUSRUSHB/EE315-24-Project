@@ -2,7 +2,14 @@
 
 This project simulates a simple local area network communication using Python. We provide a `skeleton` file for you. The latest version will be provided at [GitHub](https://github.com/ensomnia16/EE315-24-Proj). Please follow the site to keep up-to-date.
 
-## 40 Points Task 1: A Bus Implementation
+## Timeline and Presentation
+
+- Task 1&2 are due at *Tuesday, 10:20 at 16th week*.
+- For Task 1&2, you should upload your code file that coutains no other external libraries. Only two `skeleton.py` files are required.
+- Task 3 is due at *Thursday, 8:00 at 16th week.*
+- For Task 3, a prensentation of function is required at lab course. You have 2 minutes to demonstrate your functions, and how you implement them.
+
+##  40 Points Task 1: A Bus Implementation
 
 In this task, you are required to implement a `bus` LAN.
 
