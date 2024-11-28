@@ -4,10 +4,9 @@ This project simulates a simple local area network communication using Python. W
 
 ## Timeline and Presentation
 
-- Task 1&2 are due at *Tuesday, 10:20 at 16th week*.
-- For Task 1&2, you should upload your code file that coutains no other external libraries. Only two `skeleton.py` files are required.
-- Task 3 is due at *Thursday, 8:00 at 16th week.*
-- For Task 3, a prensentation of function is required at lab course. You have 2 minutes to demonstrate your functions, and how you implement them.
+- Task 1&2 is due on *Tuesday, 10:20 on the 16th week*. For Task 1&2, you should upload your code file that contains no other external libraries. Only two `skeleton.py` files are required.
+
+- Task 3 is due on *Thursday, 8:00 on the 16th week.* For Task 3, a function presentation is required in the lab course. You have 2 minutes to demonstrate your functions and how you implement them.
 
 ##  40 Points Task 1: A Bus Implementation
 
