@@ -1,5 +1,5 @@
 import os
-from skeleton_switch import Host, Switch
+from switch import Host, Switch
 from ee315_24_lib import SwitchFabric, Packet
 
 def test_switch_functionality():

@@ -7,6 +7,7 @@ class Host:
             raise ValueError("Invalid MAC address format")
         self.mac = mac
         self.interface = interface
+        self.buffer = []
 
     def send_packet(self, dst_mac, payload, switch):
         # ...student to implement...
