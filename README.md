@@ -2,13 +2,20 @@
 
 This project simulates a simple local area network communication using Python. We provide a `skeleton` file for you. The latest version will be provided at [GitHub](https://github.com/ensomnia16/EE315-24-Proj). Please follow the site to keep up-to-date.
 
+## Changelog
+
+Nov-19: Typo fixes in the document
+
+Nov-28: Test script fixes for `bus` task
+
+Decem-5: Add buffer for `swicth_skeleton`
+
 ## Timeline and Presentation
 
 - Task 1&2 is due on *Tuesday, 10:20 on the 16th week*. For Task 1&2, you should upload your code file that contains no other external libraries. Only two `skeleton.py` files are required.
-
 - Task 3 is due on *Thursday, 8:00 on the 16th week.* For Task 3, a function presentation is required in the lab course. You have 2 minutes to demonstrate your functions and how you implement them.
 
-##  40 Points Task 1: A Bus Implementation
+## 40 Points Task 1: A Bus Implementation
 
 In this task, you are required to implement a `bus` LAN.
 
