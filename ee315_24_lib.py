@@ -1,4 +1,6 @@
 from queue import Queue
+
+
 class Bus:
     def __init__(self):
         self.hosts = []
@@ -21,6 +23,7 @@ class Bus:
             if host.mac != packet.src:
                 host.receive_packet(packet)
 
+
 class Packet:
     def __init__(self, src, dst, payload):
         self.src = src
@@ -29,13 +32,14 @@ class Packet:
 
     def __str__(self):
         return f"Packet(src={self.src}, dst={self.dst}, payload={self.payload})"
-    
-class SwitchFabric:  
+
+
+class SwitchFabric:
     def __init__(self):
         self.queue = Queue()
         self.physical_map = {}  # interface -> MAC mapping
-        self.interfaces = {}    # interface -> host mapping
-        self.log_file = "fabric_log.txt" 
+        self.interfaces = {}  # interface -> host mapping
+        self.log_file = "fabric_log.txt"
         with open(self.log_file, 'w') as f:
             f.write("Switch Fabric Log Started\n")
         self.log_event("Switch Fabric initialized")
@@ -73,6 +77,6 @@ class SwitchFabric:
         self.log_event(f"{packet} forwarded to switch", f"SWITCH@{dst_interface}")
         return src_interface, packet
 
-    def log_packet(self, message):       
+    def log_packet(self, message):
         with open(self.log_file, 'a') as f:
             f.write(f"{message}\n")

@@ -1,6 +1,7 @@
 from ee315_24_lib import SwitchFabric, Packet
 import re
 
+
 class Host:
     def __init__(self, mac, interface):
         if not re.match(r'^([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}$', mac):
@@ -17,6 +18,7 @@ class Host:
         # ...student to implement...
         pass
 
+
 class Switch:
     def __init__(self, fabric, num_interfaces=8):
         self.num_interfaces = num_interfaces
@@ -29,6 +31,7 @@ class Switch:
     def handle_packet(self, packet):
         # ...student to implement...
         pass
+
 
 # 创建网络
 shared_fabric = SwitchFabric()

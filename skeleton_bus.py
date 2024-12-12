@@ -1,6 +1,7 @@
 import re
 from ee315_24_lib import Bus, Packet
 
+
 class Host:
     def __init__(self, mac):
         if not re.match(r'^([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}$', mac):
@@ -13,6 +14,7 @@ class Host:
 
     def receive_packet(self, packet):
         pass
+
 
 # Example usage
 if __name__ == "__main__":
